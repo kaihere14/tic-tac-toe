@@ -44,14 +44,12 @@ const checkwinner =()=>{
     if(value1 !="" && value2 !="" && value3 !=""){
         if(value1==value2 &&value3==value2){
           if(turnO){
-            alert("Winner is X")
             msg.classList.remove("hide")
             msg.innerText =  "Winner is : X";
             cont.classList.add("hide")
             main.classList.add("center")
             reset.innerText ="New Game"
           }else{
-            alert("Winner is O")
             msg.classList.remove("hide")
             msg.innerText = "Winner is : O";
             main.classList.add("center")
